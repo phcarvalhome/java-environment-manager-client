@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34c21c6b-682f-42ab-b7a3-b337892ebc67" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-environment-manager-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-environment-manager-client.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-environment-manager-client.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jini-core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jini-ext.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jsk-lib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/outrigger.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/reggie.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/controller/ConnectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/controller/DeviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/controller/EnvironmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/dependencyfactory/DependencyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/ConnectionModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/DeviceModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/EnvironmentModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/MainModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/entity/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/entity/EntityRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/entity/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/AbstractEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/DeviceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/EntityRegistryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/EnvironmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/delegate/JavaSpaceDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/delegate/Lookup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/util/LogUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/model/vo/EntityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/ConnectionView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/DeviceView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/EnvironmentView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/listener/GenericMouseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/listener/MainWindowAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/listener/SearchSharedFileKeyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/listener/SelectSharedDirectoryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/phcarvalho/view/util/DialogUtil.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TDrnlsiKQzCMNFETe7nFmumS1j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/phcarvalho" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.phcarvalho.view.listener" />
+      <recent name="com.phcarvalho.model.service" />
+      <recent name="com.phcarvalho.view" />
+      <recent name="com.phcarvalho.model" />
+      <recent name="com.phcarvalho.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PH\Workspace\Java\java-environment-manager-client\src\main\java\com\phcarvalho" />
+      <recent name="C:\Users\PH\Workspace\Java\java-environment-manager-client" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.phcarvalho.Application" />
+      <module name="java-environment-manager-client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c21c6b-682f-42ab-b7a3-b337892ebc67" name="Default Changelist" comment="" />
+      <created>1573005675121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573005675121</updated>
+      <workItem from="1573005678894" duration="13176000" />
+      <workItem from="1573092343645" duration="9693000" />
+      <workItem from="1573484048648" duration="7184000" />
+      <workItem from="1575797572998" duration="2857000" />
+      <workItem from="1575829132876" duration="738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/phcarvalho/model/service/AbstractEntityService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/phcarvalho/view/UserView.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
