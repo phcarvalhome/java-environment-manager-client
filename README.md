@@ -1,3 +1,3 @@
 # Environment Manager Client
 
-Distributed Java application client using Corba and Swing.
+Distributed Java application client using SOA and Swing.
