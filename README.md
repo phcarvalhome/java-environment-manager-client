@@ -7,7 +7,7 @@ Distributed Java application client using JavaSpace and Swing UI.
 ## Instituto Federal de Educação, Ciência e Tecnologia do Ceará
 
 ### Computer Engineering - Parallel and Distributed Programming 
-### Project of JavaSpace
+### Project of Tuple Space
 
 - Objective: Implement a ubiquitous environment control application using Tuple Space, in which an interface must be provided to manage a set of environments, devices and users that can be inserted in these environments:
   - The environments must be named amb1, amb2, amb3, etc. Devices should be named by disp1, disp2, disp3, etc. Users must be nominator by user1, user2,user3, etc.
